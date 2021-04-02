@@ -1,0 +1,3 @@
+/Users/z/CLionProjects/JniEnvCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/z/CLionProjects/JniEnvCpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/z/CLionProjects/JniEnvCpp/cmake-build-debug/CMakeFiles/JniEnvCpp.dir
