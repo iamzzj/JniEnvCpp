@@ -9,10 +9,8 @@
 /Users/z/CLionProjects/JniEnvCpp/main.cpp
 iostream
 -
-algorithm
+set
 -
-cctype
--
-utility
+functional
 -
 
