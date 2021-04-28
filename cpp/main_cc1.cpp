@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Student.h"
+#include "../Student.h"
 
 using namespace std; //命名空间，java中的内部类
 

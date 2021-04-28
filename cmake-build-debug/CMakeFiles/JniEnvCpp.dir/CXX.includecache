@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
+/Users/z/CLionProjects/JniEnvCpp/PriorityQueue.hpp
+iostream
+-
+
 /Users/z/CLionProjects/JniEnvCpp/main.cpp
 iostream
 -
-set
+cstdlib
 -
-functional
--
+PriorityQueue.hpp
+/Users/z/CLionProjects/JniEnvCpp/PriorityQueue.hpp
 
