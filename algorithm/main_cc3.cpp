@@ -1,4 +1,5 @@
 #include <iostream>
+#include <queue>
 
 using namespace std; //命名空间，java中的内部类
 
@@ -98,18 +99,21 @@ void middleOrderTraverse(TreeNode<T> *pNode) {
 template<class T>
 void levelOrderTraverse(TreeNode<T> *pNode) {
 
-    if (pNode->left) {
-        cout << pNode->left->data;
-    }
-    if (pNode->right) {
-        cout << pNode->right->data;
-    }
+    TreeNode<T> *node = pNode;
+    queue<T> queue;
+    queue.push(node);
 
-    if (pNode->left) {
-        levelOrderTraverse(pNode->left);
-    }
-    if (pNode->right) {
-        levelOrderTraverse(pNode->right);
+    while (!queue.empty()) {
+        node = queue.front();
+        cout << node->data;
+
+        if (pNode->left) {
+            queue.push(pNode->left);
+        }
+
+        if (pNode->right) {
+            queue.push(pNode->right);
+        }
     }
 }
 
