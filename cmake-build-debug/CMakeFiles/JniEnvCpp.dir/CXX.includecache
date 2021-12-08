@@ -6,15 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/z/CLionProjects/JniEnvCpp/PriorityQueue.hpp
-iostream
--
-
 /Users/z/CLionProjects/JniEnvCpp/main.cpp
 iostream
 -
-cstdlib
--
-PriorityQueue.hpp
-/Users/z/CLionProjects/JniEnvCpp/PriorityQueue.hpp
 

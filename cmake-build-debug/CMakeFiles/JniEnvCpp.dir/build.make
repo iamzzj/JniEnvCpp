@@ -80,15 +80,15 @@ include CMakeFiles/JniEnvCpp.dir/flags.make
 CMakeFiles/JniEnvCpp.dir/main.cpp.o: CMakeFiles/JniEnvCpp.dir/flags.make
 CMakeFiles/JniEnvCpp.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/z/CLionProjects/JniEnvCpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/JniEnvCpp.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JniEnvCpp.dir/main.cpp.o -c /Users/z/CLionProjects/JniEnvCpp/main.cpp
+	/usr/local/opt/llvm/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JniEnvCpp.dir/main.cpp.o -c /Users/z/CLionProjects/JniEnvCpp/main.cpp
 
 CMakeFiles/JniEnvCpp.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JniEnvCpp.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/z/CLionProjects/JniEnvCpp/main.cpp > CMakeFiles/JniEnvCpp.dir/main.cpp.i
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/z/CLionProjects/JniEnvCpp/main.cpp > CMakeFiles/JniEnvCpp.dir/main.cpp.i
 
 CMakeFiles/JniEnvCpp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JniEnvCpp.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/z/CLionProjects/JniEnvCpp/main.cpp -o CMakeFiles/JniEnvCpp.dir/main.cpp.s
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/z/CLionProjects/JniEnvCpp/main.cpp -o CMakeFiles/JniEnvCpp.dir/main.cpp.s
 
 # Object files for target JniEnvCpp
 JniEnvCpp_OBJECTS = \
